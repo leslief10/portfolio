@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Leslie Fernández Portafolio">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css"> 
+  <link rel="stylesheet" href="./css/media-queries.css">
+  <title>Leslie Fernández | Portafolio</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="header-nav-list">
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#about-me">Sobre Mí</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li><a href="./index-en.html">EN|ES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro-container">
+      <h1 class="intro__title">Leslie Fernández</h1>
+      <p class="intro__text">Diseñadora Gráfica | Desarrolladora Frontend</p>
+    </section>
+    <section id="projects" class="projects-container">
+      <h2 class="projects__title">PROYECTOS</h2>
+      <div class="img-main-container">
+        <div class="img-container">
+          <a href="https://github.com/leslief10/social-proof-section"><img src="./assets/img/social-proof.png" alt="social proof image">
+            <span class="img-title">Social proof section</span>
+            <span class="img-text">HTML | CSS</span></a>
+        </div>
+        <div class="img-container">
+          <a href="https://github.com/leslief10/four-card-feature-section"><img src="./assets/img/four-card.png" alt="four card image">
+            <span class="img-title">Four card feature section</span>
+            <span class="img-text">HTML | CSS</span></a>
+        </div>
+        <div class="img-container">
+          <a href="https://github.com/leslief10/order-summary-component-main"><img src="./assets/img/order-summary.png" alt="order summary image">
+            <span class="img-title">Order summary card</span>
+            <span class="img-text">HTML | CSS</span></a>
+        </div>
+        <div class="img-container">
+          <a href="https://github.com/leslief10/3-column-preview-card-component"><img src="./assets/img/3-columns.png" alt="3-columns image">
+            <span class="img-title">3-column preview card component</span>
+            <span class="img-text">HTML | CSS</span></a>
+        </div>
+        <div class="img-container">
+          <a href="https://github.com/leslief10/BatataBit"><img src="./assets/img/batatabit-main.png" alt="batatabit image">
+            <span class="img-title">Batatabit</span>
+            <span class="img-text">HTML | CSS</span></a>
+        </div>
+        <div class="img-container">
+          <a href="https://github.com/leslief10/designs"><img src="./assets/img/informant-logo.png" alt="informant logo">
+            <span class="img-title">Designs</span>
+            <span class="img-text">Illustrator | Photoshop | InDesign</span></a>
+        </div>
+      </div>
+      <button id="more-projects" class="more-projects-button">Otros Proyectos</button>
+    </section>
+    <section id="about-me" class="about-me-container">
+      <h2 class="about-me__title">SOBRE MÍ</h2>
+      <p class="about-me__text">Soy una diseñadora gráfica que desde Marzo del 2021 he estado aprendiendo desarrollo frontend. Considero que el desarrollo frontend es la combinación perfecta de mi lado creativo y analítico. Disfruto mucho el desafío de pasar un diseño a código, y pienso que mi entrenamiento en diseño gráfico me hace una mejor desarrolladora.</p>
+      <h3 class="about-me__tech-title">Tecnologías que manejo</h3>
+      <ul class="about-me__tech-list">
+        <li>Adobe Illustrator</li>
+        <li>Adobe Photoshop</li>
+        <li>Adobe InDesign</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </section>
+    <section id="contact" class="contact-container">
+      <h2 class="contact__title">CONTACTO</h2>
+      <p class="contact__email">lesliefernandez10.lf@gmail.com</p>
+      <a class="contact__linkedin" href="https://www.linkedin.com/in/lesliefernandez10/" target="_blank">LinkedIn</a>
+      <a class="contact__github" href="https://github.com/leslief10 " target="_blank">GitHub</a>
+    </section>
+  </main>
+  <footer>
+      <p>&copy; Copyright 2021 - Leslie Fernández</p>
+  </footer>
+  <script>
+    document.getElementById("more-projects").onclick = function () {
+        location.href = "./proyectos.html";
+    };
+  </script>
+</body>
+</html>
