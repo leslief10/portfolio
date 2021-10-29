@@ -122,7 +122,7 @@ main {
   transform: translate(-50%, -50%);
   font-family: var(--main-font);
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
   transition-duration: .3s;
@@ -135,7 +135,7 @@ main {
   text-align: center;
   left: 50%;
   font-family: var(--main-font);
-  font-size: 1.4em;
+  font-size: 1.4rem;
   display: none;
   margin-right: -50%;
   transition-duration: .3s;
