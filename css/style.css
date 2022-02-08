@@ -55,7 +55,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 450px;
+  height: 520px;
 }
 
 .intro__title {
@@ -178,7 +178,7 @@ main {
   align-items: center;
   height: auto;
   margin-top: 30px;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 .about-me__title, .contact__title {
