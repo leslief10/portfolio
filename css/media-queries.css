@@ -35,10 +35,6 @@
   .img-container {
     margin: 0;
   }
-
-  .more-projects-button {
-    background-image: linear-gradient(to bottom, #ff4558, #ff4657, #ff4856, #ff4956, #ff4a55);
-  }
 }
 
 @media only screen and (min-width: 1110px) {
@@ -99,11 +95,6 @@
   .about-me__text, .about-me__tech-list, .contact__email, .contact__linkedin, .contact__github {
     font-size: 2rem;
     line-height: 3.5rem;
-  }
-
-  .more-projects-button {
-    margin-top: 35px;
-    background-image: linear-gradient(to bottom, #f92b6a, #fb3167, #fc3663);
   }
 }
 

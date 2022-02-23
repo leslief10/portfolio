@@ -162,7 +162,7 @@ main {
   border-style: none;
   border-radius: 15px;
   border: 1px solid white;
-  background-image: linear-gradient(to bottom, #ff4a55, #ff5251, #ff5a4e);
+  background: transparent;
   font-family: var(--main-font);
   font-size: 2rem;
   font-weight: 300;
@@ -195,6 +195,10 @@ main {
   font-weight: 300;
   line-height: 2.3rem;
   color: white;
+}
+
+.about-me__text {
+  text-align: center;
 }
 
 .about-me__tech-title {
