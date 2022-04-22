@@ -148,7 +148,7 @@ main {
   transform: scale(1.2);
   transition-duration: .3s;
   filter: grayscale(50%);
-  opacity: .7;
+  opacity: .5;
 }
 .img-container:hover span {
   color: white;
